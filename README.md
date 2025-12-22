@@ -20,37 +20,34 @@ This project analyzes Alberta oil production data to identify key operating cost
 - pandas
 - matplotlib
 - 
-## Key Insights from Analysis
-* **Strong economies of scale**: Higher production volumes consistently show lower $/bbl.
-* **Cost drivers are not equal**:
+# Key Insights from Analysis
+* Strong economies of scale: Higher production volumes consistently show lower $/bbl.
+* Cost drivers are not equal:
 
-  * Power costs show **mid–high correlation** with $/bbl
-  * Maintenance costs show **mid–low correlation**
-  * Labour costs show **low correlation** (largely fixed)
+  * Power costs show mid–high correlation with $/bbl
+  * Maintenance costs show mid–low correlation
+  * Labour costs show low correlation (largely fixed)
 
----
+# Optimization Priorities (Ranked)
 
-## Optimization Priorities (Ranked)
+# 1️⃣ Power / Energy Costs — *Primary Lever*
 
-### 1️⃣ Power / Energy Costs — *Primary Lever*
-
-**Why focus here**
+Why focus here
 
 * Strongest controllable driver of $/bbl
 * Scales with run-time and efficiency
 * Optimization does not directly reduce production
 
 **Actions**
-
 * Energy efficiency initiatives
 * Equipment upgrades & automation
 * Runtime and load optimization
 
 **Expected Impact**: High, immediate
 
-### 2️⃣ Maintenance Optimization — *Targeted, Not Reduced*
+# 2️⃣ Maintenance Optimization — *Targeted, Not Reduced*
 
-**Why focus here**
+Why focus here
 
 * Moderate correlation with $/bbl
 * Poor maintenance increases downtime and unit costs
@@ -63,11 +60,9 @@ This project analyzes Alberta oil production data to identify key operating cost
 
 **Expected Impact**: Medium, sustained
 
----
+# 3️⃣ Labour Costs — *Monitor, Don’t Cut*
 
-### 3️⃣ Labour Costs — *Monitor, Don’t Cut*
-
-**Why not a priority**
+Why not a priority
 
 * Low correlation with $/bbl
 * Largely fixed and safety-critical
@@ -80,7 +75,7 @@ This project analyzes Alberta oil production data to identify key operating cost
 
 **Expected Impact**: Low
 
-## Strategic Recommendation
+# Strategic Recommendation
 
 > **Optimize controllable variable costs first (power, maintenance), then selectively scale efficient assets to maximize economies of scale.**
 
